@@ -1,43 +1,28 @@
-# Web Flask
+# web flask
 
-This was a sub-project within AirBnB in which I began working with Flask
-and Jinja2. In this project, I began integrating the back-end storage engine
-with the web static HTML/CSS pages written earlier.
+_This is project but work with the framework flask_
 
-Files 0 - 6 were introductory tasks familiarizing myself with
-using Flask. Files 7 forward involved gradually putting together more and more
-complex Jinja templates based on the HBnB HTML pages.
 
-The most complete Flask/Jinja app-template combo in this directory is defined
-in Flask module [100-hbnb.py](./100-hbnb.py) and Jinja template
-[100-hbnb.html](./100-hbnb.html).
+| Task | mandatory |
+| ------ | ------ |
+| 0. Hello Flask! | Write a script that starts a Flask web application |
+| 1. HBNB  | Write a script that starts a Flask web application  |
+| 2. C is fun! | Write a script that starts a Flask web application |
+| 3. Python is cool! | Write a script that starts a Flask web application |
+| 4. Is it a number?  | Write a script that starts a Flask web application |
+| 5. Number template | Write a script that starts a Flask web application: |
+| 6. Odd or even? | Write a script that starts a Flask web application |
+| 7. Improve engines | Before using Flask to display our HBNB data, you will need to update some part of our engine:  |
+| 8. List of states | Write a script that starts a Flask web application |
+| 9. Cities by states mandatory | Write a script that starts a Flask web application |
+| 10. States and State  | Write a script that starts a Flask web application |
+| 11. HBNB filters | Write a script that starts a Flask web application: |
 
-To run the Flask app, execute the following command from the root directory
-of the project:
+| Task | Advance |
+| ------ | ------ |
+| 12. HBNB is alive! | Write a script that starts a Flask web application |
 
-```
-~ $ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost
-HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db python3 -m web_flask.100-hbnb
-```
 
-The app can be accessed at `0.0.0.0:5000/hbnb`.
+## Authors :black_nib:
 
-Screenshots:
-<p align="center">
-  <img src="https://github.com/bdbaraban/AirBnB_clone_v2/blob/master/assets/hbnb_screenshot_0.png"
-       alt="HolbertonBnB logo">
-</p>
-
----
-
-<p align="center">
-  <img src="https://github.com/bdbaraban/AirBnB_clone_v2/blob/master/assets/hbnb_screenshot_1.png"
-       alt="HolbertonBnB logo">
-</p>
-
----
-
-<p align="center">
-  <img src="https://github.com/bdbaraban/AirBnB_clone_v2/blob/master/assets/hbnb_screenshot_2.png"
-       alt="HolbertonBnB logo">
-</p>
+[Esteban De La Hoz](https://www.linkedin.com/in/esteban-de-la-hoz-romero-b6270017b/) | [Twitter](https://twitter.com/Esteban18911) | [GitHub](https://github.com/Esteban18911)

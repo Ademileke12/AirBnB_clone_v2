@@ -1,5 +1,3 @@
-# Configures a web server for deployment of web_static.
-
 # Nginx configuration file
 $nginx_conf = "server {
     listen 80 default_server;
@@ -12,7 +10,7 @@ $nginx_conf = "server {
         index index.html index.htm;
     }
     location /redirect_me {
-        return 301 http://cuberule.com/;
+        rewrite ^ https://www.youtube.com/watch?v=QH2-TGUlw\u4? permanent;
     }
     error_page 404 /404.html;
     location /404 {
